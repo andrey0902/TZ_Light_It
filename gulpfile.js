@@ -13,8 +13,8 @@ const minifyCss    = require('gulp-minify-css');
 const browserSync  = require('browser-sync');
 const notify       = require('gulp-notify');
 const plumber      = require('gulp-plumber');
-const babel = require('gulp-babel');
-const jsmin = require('gulp-jsmin');
+const babel        = require('gulp-babel');
+const jsmin        = require('gulp-jsmin');
 const isDevelopment = !process.env.NODE_ENV ||  process.env.NODE_ENV == 'development';
 
 gulp.task('styles', function () {
