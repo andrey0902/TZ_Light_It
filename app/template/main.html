@@ -26,6 +26,7 @@
         <div class="details">
           <div class="col-sm-4">
             <p><h2 class="f-letter">{{item.name.first}} <i class="fa" ng-class=" item.gender == 'female'?'fa-female': 'fa-male'  " aria-hidden="true"></i></h2> </p>
+            <p><span>Lest name</span> {{item.name.last}}</p>
             <p><span>Username</span> {{item.login.username}}</p>
             <p><span>Registered date</span> {{ item.registered | limitTo: 11}} </p>
             <p><span>Email</span> {{item.email}}</p>
